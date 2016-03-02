@@ -1,10 +1,9 @@
 import React from 'react';
+import { expect } from 'chai';
 import chai from 'chai';
 import TestUtils from 'react-addons-test-utils';
 
 import App from '../src/App';
-
-const expect = chai.expect;
 
 describe('Test App Component', () => {
 	const renderer = TestUtils.createRenderer();
